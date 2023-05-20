@@ -1,4 +1,5 @@
 function addBorder(picture: string[]): any {
+    // @ts-ignore
     const wall = '*'.repeat(picture[0].length + 2);
 
     picture.unshift(wall);
